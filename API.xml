@@ -1,0 +1,2 @@
+(POST)/api/jobs/list
+HTTP BODY: { "query": '{status} = 1 AND {reference}.StartsWith("ax")' }
